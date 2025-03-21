@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A Day in the Life of a Squid Game Player</title>
+    <title>Squid Game Schedule</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -31,15 +31,24 @@
               <h3>Morning Announcement Music</h3>
               <div class="audio-player">
                 <audio controls>
-                  <source src="./assets/audios/wakeup.wav" type="audio/mpeg" />
+                  <source src="./assets/audios/wakeup.wav" type="audio/wav" />
                   Your browser does not support the audio element.
                 </audio>
-                <a href="#" class="download-btn">Download Sound File</a>
+                <a
+                  href="./assets/audios/wakeup.wav"
+                  download="wakeup.wav"
+                  class="download-btn"
+                  >Download Sound File</a
+                >
               </div>
             </div>
           </div>
-          <div class="timeline-image">
-            <img src="./assets/image/bed.png" alt="Players waking up in beds" />
+          <div class="timeline-imag">
+            <img
+              src="./assets/image/bed.png"
+              class="timeline-image"
+              alt="Players waking up in beds"
+            />
           </div>
         </div>
 
@@ -54,9 +63,10 @@
               reminder of the enforced equality inside the facility.
             </p>
           </div>
-          <div class="timeline-image">
+          <div class="timeline-imag">
             <img
-              src="/api/placeholder/500/300"
+              class="timeline-image"
+              src="./assets/image/breakfast.png"
               alt="Players eating breakfast"
             />
           </div>
@@ -68,13 +78,17 @@
             <h2>Game Announcement</h2>
             <p>
               The masked staff members gather all players in the main hall. The
-              Front Man announces today's game through the speakers. Players are
-              not told what specific game they'll be playing until they arrive
-              at the venue - adding to their anxiety and fear.
+              Front Man assistant announces today's game through the speakers.
+              Players are not told what specific game they'll be playing until
+              they arrive at the venue - adding to their anxiety and fear.
             </p>
           </div>
-          <div class="timeline-image">
-            <img src="/api/placeholder/500/300" alt="Game announcement" />
+          <div class="timeline-imag">
+            <img
+              src="./assets/image/soldiers.png"
+              class="timeline-image"
+              alt="Game announcement"
+            />
           </div>
         </div>
 
@@ -88,9 +102,10 @@
               them. Some pray, others strategize, many remain silent with fear.
             </p>
           </div>
-          <div class="timeline-image">
+          <div class="timeline-imag">
             <img
-              src="/api/placeholder/500/300"
+              src="./assets/image/stairs.png"
+              class="timeline-image"
               alt="Players walking through staircase"
             />
           </div>
@@ -101,10 +116,18 @@
             <div class="time-tag">10:00 AM</div>
             <h2>Game Time</h2>
             <p>
-              The game begins. The rules are explained only moments before
-              start. Players must use their wits, physical abilities, and
-              sometimes form alliances to survive. Each game is designed to
-              eliminate players - there's no room for everyone to succeed.
+              "Let The game begins!" The rules are explained only moments before
+              start. Here is an example of the rules,
+              <a
+                href="./assets/audios/broke_people_rich_now.wav"
+                download="broke_people_rich_now.wav"
+                class="download-link"
+                >download it here</a
+              >
+              to review before participating. Players must use their wits,
+              physical abilities, and sometimes form alliances to survive. Each
+              game is designed to eliminate players - there's no room for
+              everyone to succeed.
             </p>
             <div class="warning-box">
               <h3>⚠️ Elimination Warning</h3>
@@ -115,8 +138,12 @@
               </p>
             </div>
           </div>
-          <div class="timeline-image">
-            <img src="/api/placeholder/500/300" alt="Game in progress" />
+          <div class="timeline-imag">
+            <img
+              src="./assets/image/game.png"
+              alt="Game in progress"
+              class="timeline-image"
+            />
           </div>
         </div>
 
@@ -130,10 +157,11 @@
               make it through the last game.
             </p>
           </div>
-          <div class="timeline-image">
+          <div>
             <img
-              src="/api/placeholder/500/300"
+              src="./assets/image/lunch.png"
               alt="Players at lunch with empty spots"
+              class="timeline-image"
             />
           </div>
         </div>
@@ -149,10 +177,11 @@
               allies.
             </p>
           </div>
-          <div class="timeline-image">
+          <div class="">
             <img
-              src="/api/placeholder/500/300"
+              src="./assets/image/dorm.png"
               alt="Players in dormitory during free time"
+              class="timeline-image"
             />
           </div>
         </div>
@@ -168,8 +197,12 @@
               discussions.
             </p>
           </div>
-          <div class="timeline-image">
-            <img src="/api/placeholder/500/300" alt="Dinner time" />
+          <div class="">
+            <img
+              src="./assets/image/dinner.png"
+              class="timeline-image"
+              alt="Dinner time"
+            />
           </div>
         </div>
 
@@ -185,8 +218,12 @@
               to emerge.
             </p>
           </div>
-          <div class="timeline-image lights-out">
-            <img src="/api/placeholder/500/300" alt="Darkened dormitory" />
+          <div class="lights-out">
+            <img
+              src="./assets/image/lights.png"
+              class="timeline-image"
+              alt="Darkened dormitory"
+            />
           </div>
         </div>
       </div>
@@ -229,15 +266,6 @@
       </div>
     </footer>
 
-    <script>
-      document
-        .querySelector(".download-btn")
-        .addEventListener("click", function (e) {
-          e.preventDefault();
-          alert(
-            "In a real implementation, this would download the sound file."
-          );
-        });
-    </script>
+    <script></script>
   </body>
 </html>

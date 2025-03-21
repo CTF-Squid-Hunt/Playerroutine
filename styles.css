@@ -85,8 +85,10 @@ header .subtitle {
 
 .timeline-image {
   flex: 1;
-  min-width: 300px;
+  width: 350px;
+  height: 100% !important;
   display: flex;
+  object-fit: cover !important;
   align-items: center;
   justify-content: center;
 }
@@ -268,14 +270,14 @@ footer p {
 }
 
 /* Special effects */
-.lights-out img {
+/* .lights-out img {
   filter: brightness(20%);
   transition: filter 0.5s;
 }
 
 .lights-out img:hover {
   filter: brightness(40%);
-}
+} */
 
 /* Responsive design */
 @media (max-width: 768px) {
