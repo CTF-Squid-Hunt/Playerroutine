@@ -169,6 +169,15 @@ header .subtitle {
   background-color: #d80053;
 }
 
+.download-link {
+  color: #ff0062;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
 /* Statistics section */
 .statistics {
   background-color: #222;
